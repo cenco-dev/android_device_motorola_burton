@@ -19,6 +19,7 @@ from extract_utils.main import (
 
 namespace_imports = [
     'vendor/motorola/sm8250-common',
+    'hardware/motorola',
     'vendor/qcom/opensource/display',
 ]
 
