@@ -4,5 +4,4 @@ genfscon sysfs /devices/platform/soc/a94000.spi/spi_master/spi0/spi0.0/touchscre
 # Vibrator
 genfscon sysfs /devices/platform/soc/884000.i2c/i2c-1/1-005a/leds/vibrator      u:object_r:sysfs_vibrator:s0
 
-# Wakeup
-genfscon sysfs /devices/virtual/input/input7/wakeup                             u:object_r:sysfs_wakeup:s0
+
