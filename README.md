@@ -18,3 +18,4 @@ Front Camera | 16 MP (f/2.2) + 8 MP (f/2.4)
 
 ![Device Picture](https://fdn2.gsmarena.com/vv/pics/motorola/motorola-moto-g100-ofic-01.jpg)
 # android_device_motorola_burton
+# android_device_motorola_burton

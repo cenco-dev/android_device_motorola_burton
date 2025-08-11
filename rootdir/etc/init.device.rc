@@ -1,5 +1,5 @@
 on early-boot
-   exec u:r:vendor_modprobe:s0 -- /vendor/bin/modprobe -a -d /vendor/lib/modules nova_0flash_mmi
+   exec u:r:vendor_modprobe:s0 -- /vendor/bin/modprobe -a -d /vendor/lib/modules qpnp-power-on-mmi qpnp-smbcharger-mmi
 
 on fs
-   exec u:r:vendor_modprobe:s0 -- /vendor/bin/modprobe -a -d /vendor/lib/modules wl2864c sx933x_sar
+   exec u:r:vendor_modprobe:s0 -- /vendor/bin/modprobe -a -d /vendor/lib/modules wl2864c sx933x_sar aw8697 mmi_relay touchscreen_mmi 

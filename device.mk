@@ -16,8 +16,8 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
 
 PRODUCT_PACKAGES += \
-    FrameworksResNio \
-    SystemUIResNio
+    FrameworksResBurton \
+    SystemUIResBurton
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -37,8 +37,8 @@ PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/nfc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
-    $(LOCAL_PATH)/nfc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf
+    $(LOCAL_PATH)/nfc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf \
+    $(LOCAL_PATH)/nfc/libnfc-nci-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci-st.conf
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/motorola/nio/nio-vendor.mk)
+$(call inherit-product-if-exists, vendor/motorola/burton/burton-vendor.mk)

@@ -1,0 +1,6 @@
+mmi_relay.ko
+aw8697.ko
+touchscreen_mmi.ko
+qpnp-power-on-mmi.ko
+qpnp-smbcharger-mmi.ko
+
