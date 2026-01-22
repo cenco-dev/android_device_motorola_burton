@@ -16,6 +16,7 @@ TARGET_SCREEN_DENSITY := 420
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/device_framework_matrix.xml
 
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/ext_config/burton-default.config
@@ -27,6 +28,9 @@ VENDOR_SECURITY_PATCH := 2022-05-01
 
 # SEPolicy
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+
+# Partitions
+BOARD_RECOVERYIMAGE_PARTITION_SIZE := 104857600
 
 
 # Touch
